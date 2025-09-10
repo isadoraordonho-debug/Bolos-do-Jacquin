@@ -50,6 +50,7 @@ header {
     border-radius: 10px;
     border: solid 1px #cccccc;
     padding-left: 2.5rem;
+    font-size: 1rem;
   
 }
 
@@ -67,6 +68,8 @@ header {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+
 
 .banner {
     background-image: url(./assets/assets/imgs/banner.png);
@@ -177,5 +180,16 @@ header {
 }
 
 .fotter p{
-    font-family: "Julius Sans One", sans-serif;;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    
 }
+
+
+/* MEDIA */
+@media screen and (max-width: 600px){
+   .banner{
+      aspect-ratio: 2.0%;
+    }   
+}
+       

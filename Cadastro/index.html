@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> BJ - Produtos </title>
-    
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Julius+Sans+One&display=swap"
         rel="stylesheet">
 
-
-
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
 
-     
+
         <div class="container_cabecalho">
             <svg class="Icone_home" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 640"><!--! Font Awesome Pro 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc. -->
@@ -62,72 +60,56 @@
 
     </header>
     <main>
-        <section class="banner"></section>
-        <section class="Container">
-            <h1 class="acessivel">produtos de chocolate</h1>
-            <div class="titulo">
-                <span>Chocolate</span>
+        <h1 class="acessivel">Tela de cadastro e listagem de produtos</h1>
 
-                <hr>
+        <section class="container_cadastro">
+            <h2>Cadastro</h2>
+            <hr>
+
+            <div class="box_cadastro">
+                <div class="cadastro_colunal">
+                    <div class="Bolos">
+                        <label for="Bolo">Bolo</label>
+                        <input type="text" name="" id="Bolo">
 
 
+                    </div>
+                    <div class="categoria_img">
+                        <div class="categoria">
+                            <label for="cat">Categoria</label>
+                            <input type="text" name="" id="cat">
+                        </div>
 
-            </div>
+
+                        <div class="img">
+                            <label for="img">Imagem</label>
+                            <input type="file" name="" id="img">
+                        </div>
+                    </div>
+
+                    <div class="valor_peso">
+                        <div class="valor">
+                            <label for="val">Valor</label>
+                            <input type="text" name="" id="val">
+                        </div>
+
+                        <div class="peso">
+                            <label for="peso">Peso</label>
+                            <input type="text" name="" id="peso">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cadastro_coluna2">
+                    <label for="desc">Descrição</label>
+                    <textarea name="" id="desc"></textarea>
+
+                </div>
+             </div>
+             <input type="button" value="Cadastrar">
         </section>
-        <section class="cards">
-            <div class="card">
-                <img src="./assets/assets/imgs/choc-ninho-morango.png" alt=" Uma fatia de bolo de Ninho com morango">
-                <h2>Ninho com morango</h2>
-                <p> Bolo macio de ninho com recheio de morango</p>
-                <span> R$80,00</span>
-                
-            </div>
-            <div class="card">
-                <img src="./assets/assets/imgs/choc-belga.png" alt=" Uma fatia de chocolate Belga">
-                <h2>Chocolate Belga</h2>
-                <p> Bolo macio de chocolate com recheio de chocolate</p>
-                <span> R$80,00</span>
-
-            </div>
-            <div class="card">
-                <img src="./assets/assets/imgs/cenoura-choc.png" alt="Uma fatia de bolode cenoura com chocolate"> 
-                <h2>Cenoura com chocolate</h2>
-                <p> Bolo macio de cenoura com cobertura de chocolate</p>
-                <span> R$80,00</span>
-
-            </div>
-            <div class="card">
-                <img src="./assets/assets/imgs/choc-ninho.png" alt="Uma fatia de bolo de ninho">
-                <h2>Ninho</h2>
-                <p> Bolo macio de ninho</p>
-                <span> R$80,00</span>
-
-            </div>
-            <div class="card">
-                <img src="./assets/assets/imgs/choc-oreo.png" alt="Uma fatia de bolo enfeitado e receheio do biscoito Oreo">
-                <h2>Pedaços de Oreo</h2>
-                <p> Bolo macio de chocolate com pedaços de biscoito Oreo</p>
-                <span> R$80,00</span>
-
-            </div>
-            <div class="card">
-                <img src="./assets/assets/imgs/choc-pistache.png" alt="Uma fatia de bolo sabor pistache">
-                <h2>Pistache com chocolate</h2>
-                <p> Bolo macio de pistache e cobertura de chocolate</p>
-                <span> R$80,00</span>
-
-            </div>
-
-        </section>
-        <a class="whatsapp" href="" target="_blank">
-            <img src="./assets/assets/whatsapp.png" alt="icone do whatsapp">
-        </a>
-
     </main>
-
-        <footer>
-            <p> Bolos do Jacquin - Todos os direitos reservados</p>
-        </footer>
 </body>
 
 </html>
